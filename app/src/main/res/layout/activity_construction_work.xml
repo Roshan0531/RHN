@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Construction_work"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="304dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Construction work"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="345dp"
+        android:layout_height="389dp"
+        android:text="RHN CONSTRUCTION (Pvt) Ltd, engaged in the construction industry for many years, has experience in various construction projects such as housing, high-rise buildings, highways, bridges, water projects, etc. The highly qualified technical staff has experience in serving a wide range of challenges. Projects in Sri Lanka and abroad. Working in various parts of the country over the years, we have built good relationships with material suppliers, labor suppliers, subcontractors and many other parties across the country. Therefore, we are equipped to undertake any type of construction project in any part of Sri Lanka. Information about some construction projects completed by RHN CONSTRUCTION (Pvt) Ltd."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bu3"
+        android:layout_width="223dp"
+        android:layout_height="49dp"
+        android:text="Our Projects"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

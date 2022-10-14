@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Construction_work"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="365dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Real estate investment and development"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="345dp"
+        android:layout_height="389dp"
+        android:text="
+The Real Estate Investment and Development division of RHN CONSTRUCTION (Pvt) Ltd has experience in working on many projects in different parts of the country. There are currently investments in several lands across the country. Additionally, we are involved in developing high-rise buildings or individual buildings for commercial and residential purposes. Combined experience in procurement, design and construction has brought to life some of the most profitable and popular development projects in the country.
+"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".design_build_solutions"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/contactengineer"
+        android:layout_width="335dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Design-build solutions"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="345dp"
+        android:layout_height="389dp"
+        android:text="With the growing popularity of design and build projects in the Sri Lankan construction industry, RHN CONSTRUCTION (Pvt) Ltd is one of the first companies to start providing that service by connecting through a mobile application. Our ability to incorporate our vast experience in the construction process into the design process has enabled us to reduce the time and cost of projects. Apart from leveraging our qualified in-house design team consisting of chartered architects, chartered engineers, etc., we regularly collaborate with some of Sri Lanka's leading design firms."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <TextView
+        android:id="@+id/frogetpassword"
+        android:layout_width="233dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Contact Your Engineer"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+</androidx.constraintlayout.widget.ConstraintLayout>

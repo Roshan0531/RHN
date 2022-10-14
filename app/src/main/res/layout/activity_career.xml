@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accounting"
+    android:background="@color/white">
+
+    <ImageButton
+        android:id="@+id/cbt3"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="347dp"
+        app:srcCompat="@drawable/development"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/cbt1"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="539dp"
+        app:srcCompat="@drawable/constructionwork"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/cbt5"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="129dp"
+        app:srcCompat="@drawable/training"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/cbt2"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="542dp"
+        app:srcCompat="@drawable/solution"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/cbt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="117dp"
+        app:srcCompat="@drawable/growers"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/cbt4"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="342dp"
+        app:srcCompat="@drawable/consulting"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
